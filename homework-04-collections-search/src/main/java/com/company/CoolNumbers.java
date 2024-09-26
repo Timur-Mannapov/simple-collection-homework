@@ -3,8 +3,10 @@ package com.company;
 import java.util.HashSet;
 import java.util.List;
 import java.util.TreeSet;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class CoolNumbers {
+    private String alphabet = "А, В, Е, К, М, Н, О, Р, С, Т, У, Х";
 
     public static List<String> generateCoolNumbers() {
         return List.of();

@@ -1,5 +1,13 @@
 package com.company;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.sql.SQLOutput;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
 public class Main {
 
     /* TODO:
@@ -15,8 +23,9 @@ public class Main {
         Пример вывода сообщения об ошибке при неверном формате Email:
         "Неверный формат email"
     */
-
     public static void main(String[] args) {
-           //TODO: write code here
+        //TODO: write code here
+        EmailListApp emailListApp = new EmailListApp();
+        emailListApp.init();
     }
 }
